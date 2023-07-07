@@ -17,7 +17,7 @@ function nextSequence(){
 
 
 //press
-$(document).keypress(function(){
+$("h1").keypress(function(){
     if (started) {
         $("#level-title").text("Leval " + level);
         nextSequence();
